@@ -1,0 +1,14 @@
+{   
+    "name" : "luko-discord-bot",
+    "version" : "0.1.0",
+    "description": "Discord bot for streamer use",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+      },
+    "dependencies": {"discord.js" : "12.3.1",
+                     "tmi.js" : "1.5.0"
+        },
+    "author": "Luko",
+    "language" : "english"
+}

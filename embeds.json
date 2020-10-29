@@ -1,0 +1,59 @@
+{
+    "embedTest" : {
+        "color": "0x0099ff",
+        "title": "Some title",
+        "fields": [
+            {
+                "name": "Regular field title",
+                "value": "Some value here"
+            },
+            {
+                "name": "\u200b",
+                "value": "\u200b",
+                "inline": false
+            },
+            {
+                "name": "Inline field title",
+                "value": "Some value",
+                "inline": true
+            }
+        ]
+    },
+
+    "help" : {
+        "color" : "0x0099ff",
+        "title" : "Available commands ",
+        "fields": [
+            {
+                "name" : "User commands:",
+                "value": ["help", "ego", "ping", "joke", "roll"]
+            }
+        ],
+        "footer" : {
+            "text" : "Made by Luko 2020"
+        }
+    },
+
+    "help_mod" : {
+        "color" : "0x0099ff",
+        "title" : "Available commands ",
+        "fields": [
+            {
+                "name" : "User commands:",
+                "value": ["help", "ego", "ping", "joke", "roll"]
+            },
+            {
+                "name" : "Moderator commands:",
+                "value": ["kick", "clear", "emoji", "prefix, test"]
+            }
+        ],
+        "footer" : {
+            "text" : "Made by Luko 2020"
+        }
+    },
+
+    "stream_on" : {
+        "color" : "0x6441a5",
+        "title" : "A stream online!"
+    }
+}
